@@ -1,0 +1,78 @@
+.shangpin{
+    background-color: rgb(244,244,244);
+}
+
+.shangpin>h1{
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0 auto;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+    color: black;
+}
+.shangpin .center{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    background-color: white;
+}
+
+.shangpin .center .shop{
+    width: 230px;
+    height: 330px;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+.shangpin .center .shop img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    width: 150px;
+    height: 150px;
+}
+.shangpin .center .shop p{
+    width: 190px;
+    height: 50px;
+    padding: 0px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.shangpin .center .shop span{
+    margin: 10px 10px;
+    font-size: 24px;
+    color: red;
+    display: block;
+}
+
+.shangpin .center .shop strong{
+    text-align: center;
+    width: 120px;
+    margin: 0 auto;
+    display: block;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 40%;
+    display: none;
+}
+.shangpin .center .shop:hover strong{
+    display: block;
+}
+.shangpin .center {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.shangpin .more{
+    font-size: 2.5em;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
